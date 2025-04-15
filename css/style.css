@@ -54,8 +54,16 @@ a {
   color: transparent;
   border: none;
   outline: none;
-  background: rgba(0, 0, 0, 0.568);
+  background: #896464;
   z-index: 100;
+}
+.slick-prev:hover {
+  background: #896464;
+  opacity: 0.5;
+}
+.slick-prev:focus {
+  background: #896464;
+  opacity: 0.7;
 }
 
 .slick-prev:before {
@@ -98,6 +106,14 @@ a {
   outline: none;
   background: rgba(0, 0, 0, 0.568);
   z-index: 100;
+}
+.slick-next:hover {
+  background: #896464;
+  opacity: 0.5;
+}
+.slick-next:focus {
+  background: #896464;
+  opacity: 0.7;
 }
 
 .slick-next:before {

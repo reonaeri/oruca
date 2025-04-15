@@ -18,8 +18,16 @@
     color: transparent;
     border: none;
     outline: none;
-    background: rgba(0, 0, 0, 0.568);
+    background: #896464;
     z-index: 100;
+    &:hover {
+        background: #896464;
+        opacity: 0.5;
+    }
+    &:focus {
+        background: #896464;
+        opacity: 0.7;
+    }
 }
 .slick-prev:before {
     content: '';
@@ -60,8 +68,16 @@
     color: transparent;
     border: none;
     outline: none;
-    background: rgba(0, 0, 0, 0.568);
+    background: #896464;
     z-index: 100;
+    &:hover {
+        background: #896464;
+        opacity: 0.5;
+    }
+    &:focus {
+        background: #896464;
+        opacity: 0.7;
+    }
 }
 .slick-next:before {
     content: '';
